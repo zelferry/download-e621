@@ -1,6 +1,6 @@
 class e621 {
   static baixar (searchTerms) {
-const fs = require("fs")
+const fs = require("fs");
 const querystring = require('querystring');
 const fetch = require('node-fetch');
 const opts = {method: 'GET',headers: {'User-Agent': 'crosdid/1.0',},};
@@ -18,14 +18,21 @@ const query = querystring.stringify({tags: searchTerms,}).replace(/%20/gu, '+');
 let filename = result.id;
 let fileTIPO = result.file.ext
 const arquivo = result.file.url
+const artista = result.tags.artist
+
+if (arquivo) {
+  if (arquivo.endsWith('.webm') || arquivo.endsWith('.swf')) {
+   return console.log('\x1b[31m',`https://e621.net/post/show/${filename} \n \narquivos em (webm,swf) não podem ser baixadas!`)
+  }
+ }
 
 async function download() {
   const response = await fetch(arquivo);
   const buffer = await response.buffer();
-fs.writeFileSync(`${dlPath}/${filename}.${fileTIPO}`,buffer)
+fs.writeFileSync(`${dlPath}/${artista}-${filename}.${fileTIPO}`,buffer)
 }
 download()
-console.log(`o download para ${filename} foi concluido!`)
+console.log('\x1b[32m',`o download para ${filename} foi concluido!`)
 }).catch((err) => {console.error(`DEU ERRO! \n devido a:${err}`);
 });
   }

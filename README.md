@@ -2,12 +2,6 @@ ola!
 
 ---
 
-eu sei, eu sei,ja fiz varias coisas aqui na git envolvendo a E621 kkkkk
-
-juro que esse e o último(OU SERA QUE NAO!?)
-
----
-
 ## oq isso faz?!
 
 isso e uma instância(repositório) para baixar imagens da e621!
@@ -24,7 +18,7 @@ isso e uma instância(repositório) para baixar imagens da e621!
 
 1-clone esse repositório
 
-2-no valor `e6.baixar` no index você vai colocar sua tag `n e obrigatório`
+2-no valor `e6.baixar` no index você vai colocar sua tag `n e obrigatório, mas sugiro colocar um valor '-'`
 
 3-inicie o requisitos
 
@@ -55,7 +49,11 @@ console.log(yiff);
 ```
 
 ---
+## obter o ID da publicação
 
-e isso
+caso vc queira ver de onde veio a imagem`(da e621)` que retornou, vc pode ver na area de logs ou no proprio nome do arquivo!
 
-ADIOS!
+
+
+
+tchau uwu

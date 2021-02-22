@@ -1,15 +1,30 @@
 {
   "name": "download-e621",
   "version": "1.0.0",
-  "description": "",
+  "description": "ola!",
   "main": "index.js",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zelferry/download-e621.git"
+  },
+  "keywords": [
+    "e621",
+    "download-e621",
+    "download",
+    "baixar e621"
+  ],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "node-fetch": "^2.6.1"
-  }
+  "bugs": {
+    "url": "https://github.com/zelferry/download-e621/issues"
+  },
+  "homepage": "https://github.com/zelferry/download-e621#readme"
 }
