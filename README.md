@@ -8,19 +8,19 @@ juro que esse e o último(OU SERA QUE NAO!?)
 
 ---
 
-##oq isso faz?!
+## oq isso faz?!
 
-isso e uma instância para baixar imagens da e621!
+isso e uma instância(repositório) para baixar imagens da e621!
 
 ---
 
-##requisitos
+## requisitos
 
 1-node.js V12 ou superior
 
 ---
 
-##iniciando
+## iniciando
 
 1-clone esse repositório
 
@@ -34,7 +34,7 @@ isso e uma instância para baixar imagens da e621!
 
 ---
 
-###exemplos
+### exemplos
 
 vamos supor que vou querer baixar algo do meesh
 
