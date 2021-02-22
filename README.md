@@ -24,9 +24,9 @@ isso e uma instância(repositório) para baixar imagens da e621!
 
 1-clone esse repositório
 
-2-no valor `e6.baixar` no index você vai colicar sua tag `n e obrigatório`
+2-no valor `e6.baixar` no index você vai colocar sua tag `n e obrigatório`
 
-3-inicie k requisitos
+3-inicie o requisitos
 
 4-espere....
 
