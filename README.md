@@ -1,7 +1,3 @@
-ola!
-
----
-
 ## oq isso faz?!
 
 isso e uma instância(repositório) para baixar imagens da e621!
@@ -53,7 +49,14 @@ console.log(yiff);
 
 caso vc queira ver de onde veio a imagem`(da e621)` que retornou, vc pode ver na area de logs ou no proprio nome do arquivo!
 
+---
+
+## obter informações da pasta de imagens
 
 
+para obter as informações da pasta de imagens, basta vc usar o evento
+```js
+e6.pastainfo()
+```
 
 tchau uwu
